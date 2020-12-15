@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    width: 100vw;
 }
 *,*:before, *:after {
     box-sizing: inherit;
@@ -47,18 +48,13 @@ html {
 */
 
 @media (min-width: 1281px) {
-  
-	#ecco {
-		position: relative;
-		padding-left: 3rem;
-	}
-	#title {
-		color: rgb(0, 0, 0);
-		font-family:'Raleway', sans-serif;
-		font-size: 20px;
-		font-weight: bold;
-	}
-
+/*Logo*/  
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}   
 nav {
 	position: relative;
 	display: flex;
@@ -71,7 +67,7 @@ li {
     display: inline-block;
 }
 li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     display: inline-block;
     padding: 0 40px;
@@ -92,16 +88,12 @@ li a {
 	
 /* --------INICIO---------menu------ */
 
-#ecco {
-	position: relative;
-	padding-left: 3rem;
-}
-#title {
-	color: rgb(0, 0, 0);
-	font-family:'Raleway', sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+} 
 
 nav {
 	position: relative;
@@ -116,7 +108,7 @@ li {
     display: inline-block;
 }
 li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     display: inline-block;
     padding: 0 40px;
@@ -135,17 +127,12 @@ li a {
   @media (min-width: 768px) and (max-width: 1024px) {
 	
 	/* --------INICIO---------menu------ */
-
-	#ecco {
-		position: relative;
-		padding-left: 3rem;
-	}
-	#title {
-		color: rgb(0, 0, 0);
-		font-family:'Raleway', sans-serif;
-		font-size: 14px;
-		font-weight: bold;
-	}
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    } 
 
 nav {
 	position: relative;
@@ -160,7 +147,7 @@ li {
     display: inline-block;
 }
 li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     display: inline-block;
     padding: 0 40px;
@@ -182,16 +169,12 @@ li a {
 	/* --------INICIO---------menu------ */
 
 
-#ecco {
-	position: relative;
-	padding-left: 3rem;
-}
-#title {
-	color: rgb(0, 0, 0);
-	font-family:'Raleway', sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-}
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    } 
 
 nav {
 	position: relative;
@@ -206,7 +189,7 @@ li {
     display: inline-block;
 }
 li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     display: inline-block;
     padding: 0 40px;
@@ -224,18 +207,14 @@ li a {
   
   @media (min-width: 481px) and (max-width: 767px) {
 	
-	/* --------INICIO---------menu------ */
-
-	#ecco {
-		position: relative;
-		padding-left: 3rem;
-	}
-	#title {
-		color: rgb(0, 0, 0);
-		font-family:'Raleway', sans-serif;
-		font-size: 10px;
-		font-weight: bold;
-	}
+    /* --------INICIO---------menu------ */
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    } 
 	
 	nav {
 		position: relative;
@@ -250,7 +229,7 @@ li a {
 		display: inline-block;
 	}
 	li a {
-		color: #fff;
+		color: #000;
 		text-decoration: none;
 		display: block;
 		padding: 0 40px;
@@ -269,18 +248,14 @@ li a {
   
   @media (min-width: 320px) and (max-width: 480px) {
 	
-	/* --------INICIO---------menu------ */
-
-#ecco {
-    position: relative;
-    padding-left: 3rem;
-}
-#title {
-    color: rgb(0, 0, 0);
-    font-family:'Raleway', sans-serif;
-    font-size: 10px;
-    font-weight: bold;
-}
+    /* --------INICIO---------menu------ */
+    
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+} 
 
 nav {
 	position: relative;
@@ -295,7 +270,7 @@ li {
     display: block;
 }
 li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 	display: block;
     padding: .2rem 40px;
@@ -312,7 +287,7 @@ li a {
     display: block;
     width: 0;
     height: 2px;
-    background: #fff;
+    background: #000;
     transition: width .5s;
 }
 .line:hover::after {
@@ -324,18 +299,22 @@ a:hover {
 } 
 /* --------FIN---------menu------*/
             /*Header Contact*/
-section {
+.contacto {
     padding: 150px 0;
     position: relative;
-    background-color: #f0f0f0;
+    background-image: url(../images/contact-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 71%;
     opacity: 80%;
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    top: 90px;
-}
+    top: 3rem;
+    overflow: hidden;
+}/*
 .parallax-text-wrap {
     position: absolute;
     width: 100%;
@@ -345,29 +324,63 @@ section {
     position: absolute;
     bottom: -90%;
     left: 22%;
-    font-weight: 900;
     font-size: 120px;
     letter-spacing: 0.28em;
     text-transform: uppercase;
     white-space: nowrap;
     opacity: 60%;
+    font-family: 'Raleway', sans-serif;
+} */
+
+	
+.parallax-text-wrap {
+	position: relative;
+	width: 100%;
+
+}
+.parallax-text-wrap h3 {
+	position: relative;
+   font-size: 3rem;
+   font-family: 'Raleway', sans-serif;
+	z-index: 1;
+	color: rgb(0, 0, 0);
+	/* mix-blend-mode: lighten; */
+	
+}
+.parallax-text {
+	padding: 3rem;
+	position: absolute;
+	display: flex;
+    font-family: 'Rubik Mono One', sans-serif;
+	font-size: 12vw;
+	/* letter-spacing: 0.28em; */
+	text-transform: uppercase;
+	color: tomato;
+	mix-blend-mode: difference;
+	opacity: 0.5;
+	justify-content: center;
+	height: 120px;
+	width: 100vw;
 }
     /*Background image*/
-body {
-    background-image:url(../images/contact-back.jpg);
-    z-index: -1;
-}
+.background {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-image: url(../images/contact-back.jpg);
+    background-size: cover;
+    padding: 55px 0px;
 
+}
 #box-contact {
-         
-    background-color: #C28933;
-    width: 411px;
-    height: 416px;
-    padding: 50px;
-    margin: 20px;
     position: relative;
-    top: 20rem;
-    
+    background-color: #C28933;
+    width: 30vw;
+    height: 60vh;
+    padding: 2em;
+    margin: 3rem;
+    z-index: 1;
 }
 #box-contact h2 {
     font-size: 20px;
@@ -422,16 +435,19 @@ body {
     width: 33%;
     display: flex;
 }
-
+/*------SECTION BACKGROUND---------*/
+.background {
+    background-image: url(../images/contact-back.jpg);
+    background-size: cover;
+}
 #box-mensaje {
     background-color: #ffff;
-    width: 558px;
-    height: 538px;
-    padding: 50px;
-    margin: 20px;
+    width: 60vw;
+    height: 80vh;
+    padding: 2em;
+    margin: 3rem;
     position: relative;
-    top: 35rem;
-    left: 55rem;
+    float: right;
 }
 
 #box-mensaje h2 {
@@ -448,7 +464,7 @@ body {
     line-height: 50%;
     color:#000;
 }
-#fname {
+/* #fname {
     width: 180px;
     position: relative;
     top: 70px;
@@ -463,27 +479,40 @@ body {
     width: 180px;
     position: relative;
     top: 125px;
+    left: -370px;
 }
 #email {
     width: 180px;
     position: relative;
     top: 125px;
     left: 57px;
-}
+}*/
 #mensaje {
-    width: 420px;
-    height: 137px;
+    width: 300px;
+    height: 12rem;
     position: relative;
-    top: 170px;
+    top: .2rem;
+    bottom: 2rem;
+    float: right;
+} 
+
+.form{
+    width: 400px;
+}
+
+.form input{
+    width: 400px;
+    height: 3rem;
+    margin: 1rem;
 }
 #submit {
     width: 140px;
     height: 40px;
     background-color: #D9001B;
     color: #ffff;
-    position: relative;
-    top: 200px;
-    left: 280px;
+    /* position: relative;  */
+    /* top: 200px;
+    left: 280px; */
     border: none;
     border-radius: 29px;
     font-size: 13px;
@@ -494,47 +523,73 @@ body {
 div h1 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     position: relative;
-    top: 45rem;
+    /* top: 45rem; */
 }
 h1 {
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 40px;
-    font-weight: bold;
-    color: #ffff;
+    font-weight: lighter;
+    color: #fff;
 }
 .bounceInLeft {
     animation-duration: 2s;
     animation-delay: 1s;
 }
-div img {
-    width: 18%;
+.bounceInButtom {
+    nimation-duration: 2s;
+    animation-delay: 1s;
+}
+.soportemos{
+    float: left;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+.imgdonate {
+    width: 48%;
+    /* height: 100%; */
+    padding: 1em;
+    margin: 1em;
+    background-color: #008CBA;
+    overflow: hidden;
+}
+.imgdonate img {
+    width: 100%;
     position: relative;
-    top: 58rem;
-    left: 23rem;
+    
+    /* top: 58rem;
+    left: 23rem; */
     z-index: 1;
+}
+.datosdonar{
+    width: 50%;
+    height: 50vh;
+    float: right;
+    padding: 2rem;
 }
 #box-donate {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 33rem;
-    left: 294px;
-    background-color: #ffff;
-    width: 889px;
-    height: 414px;
-    padding: 50px;
-    margin: 20px;
+    /* top: 33rem; */
+    /* left: 294px; */
+    background-color: #fff;
+    width: 60vw;
+    height: 50vh;
+    padding: 1rem;
+    margin: 3rem;
+    padding: 2rem;
 }
 .button {
   position: relative;
-  top: -8rem;  
-  left: 298px;
+  /* top: -8rem;  
+  left: 298px; */
   background-color: #ffff;
   border: 2px solid #008CBA;
-  padding: 10px 20px;
+  padding: 4px;
   text-align: center;
   display: inline-block;
   text-decoration: none;
@@ -542,7 +597,7 @@ div img {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
   color: #000;
-  margin: 4px 2px;
+  margin: 8px 2px;
   cursor: pointer;
   border-radius: 9px;
   transition: 0.8s;
@@ -553,31 +608,30 @@ div img {
 }
 #botones-donar {
     position: relative;
-    top: 33rem;
+
+    /* top: 33rem; */
 }
 .button2 {
     background-color: #269300;
-    padding: 13px 49px;
+    /* padding: 13px 49px; */
     border-radius: 12px;
     position: relative;
-    top: -11rem;
-    left: 40rem;
-    margin: 31px;
-}
-.button2:hover {
-    background-color: #207900;
-}
-.button5 p{
+    /* top: -11rem;
+    left: 40rem; */
+    /* margin: 31px; */
     color: white;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     font-weight: bolder;
-    display: flex;
     justify-content: center;
 }
+.button2:hover {
+    background-color: #207900;
+}
+
 .button5 div {
     position: relative;
-    top: 8px;
+    /* top: .1em; */
 }
 .button6 p {
     color: white;
@@ -594,15 +648,15 @@ div img {
 #cantidad {
     height: 25px;
     position: relative;
-    left: -20%;
-    top: -4rem;
+    /* left: -20%;
+    top: -4rem; */
 }
 div h6 {
     color: #000;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     position: relative;
-    left: -19rem;
-    top: 1rem;
+    /* left: -19rem; */
+    /* top: 1rem; */
     font-size: 25px;
 }
 div h3 {
@@ -610,9 +664,17 @@ div h3 {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     position: relative;
-    left: -357px;
-    top: 3rem;
+    /* left: -357px; */
+    /* top: 3rem; */
     font-size: 25px;
+}
+.form{
+    display: flex;
+}
+
+.textpago {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .title a {
@@ -622,3 +684,130 @@ div h3 {
     font-size: 20px;
 	text-decoration: none;
 } 
+
+.containercontacto {
+    display: flex;
+    width: 100vw;
+}
+
+/* ---------------------------------idiomas--------------------------- */
+.idiomas{
+    display: inline-flex;
+    position: absolute;
+    width: 100vw;
+    justify-content: right;
+    z-index: 90;
+}
+
+.idiomas ul {
+    display: inline-flex;
+    position: absolute;
+    padding: 1em;
+    margin: 1 em;
+}
+
+.idiomas ul li{
+    color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1em;
+        padding: 1em;
+        list-style: none;
+}
+
+.idiomas ul li:hover{
+    color: gray;
+}
+
+.idiomas ul a {
+        text-decoration: none;
+}
+
+@media (max-width: 1281px){
+	body {
+        display: block;
+        max-width: 100vw;
+        /* height: auto;
+        overflow: hidden; */
+	}
+	.idiomas{
+		position: relative;
+		margin: .5rem 0 3rem 0;
+		font-size: .8em;
+    }
+    
+.containercontacto{
+    display: block;
+
+}
+#box-contact {
+    position: relative;
+    background-color: 
+    #C28933;
+    width: 90vw;
+    height: 60vh;
+    /* padding: 2em; */
+    /* margin: 3rem; */
+    z-index: 1;
+}
+
+    #box-mensaje {
+        background-color: 
+        #ffff;
+        width: 100vw;
+        /* height: 80vh;
+        padding: 2em; */
+        margin: 0rem;
+        position: relative;
+        display: block;
+        /* float: right; */
+    }
+    .form input {
+        width: 70vw;
+        height: 1rem;
+        margin: .5rem;
+    }
+    .form{
+        display: block;
+    }
+
+    #mensaje {
+        width: 70vw;
+        height: 12rem;
+        position: relative;
+        top: .2rem;
+        bottom: 2rem;
+        float: none;
+    }
+.background{
+    width: 100vw;
+    height: 200vh;
+    position: absolute;
+}
+#box-donate {
+    display: block;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* position: relative; */
+    /* top: 53rem; */
+    /* left: 294px; */
+    background-color: rgba(255, 255, 255, 0);
+    width: 90vw;
+    /* height: 50vh; */
+    /* padding: 1rem; */
+    /* margin: 3rem; */
+}
+.imgdonate img {
+    display: none;
+}
+.datosdonar{
+    width: 90vw;
+    height: 50vh;
+    position: absolute;
+    background-color: white;
+    
+    /* float: right; */
+    /* padding: 2rem; */
+}
+
+}

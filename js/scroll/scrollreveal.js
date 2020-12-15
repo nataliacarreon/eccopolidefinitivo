@@ -12,8 +12,7 @@ var customimg = {
     duration:1000
 };
 
-ScrollReveal().reveal('.enc', custom);
 ScrollReveal().reveal('p', custom);
-ScrollReveal().reveal('.unoimg', customimg);
-ScrollReveal().reveal('.dosimg', customimg);
-ScrollReveal().reveal('.tresimg', customimg);
+ScrollReveal().reveal('.unoimg', custom);
+ScrollReveal().reveal('.imagebox', custom);
+ScrollReveal().reveal('.misiontexto', custom);
