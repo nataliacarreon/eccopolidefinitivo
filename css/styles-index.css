@@ -67,18 +67,18 @@ html {
         border-collapse: collapse;
         border-spacing: 0;
     }
-#vid-haiti {
+.vid-haiti {
     position: fixed;
     z-index: -1;
 } 
 @media (min-aspect-ratio: 16/9) {
-    #vid-haiti {
+    .vid-haiti {
         width: 100%;
         height: auto;
     }
 }
 @media (max-aspect-ratio: 16/9) {
-    #vid-haiti {
+    .vid-haiti {
         width: auto;
         height: 100%;
     }
@@ -240,7 +240,7 @@ a:hover {
 }
 
 .idiomas ul li{
-    color: white;
+    color:#3DBFF9;
         text-decoration: none;
         font-family: 'Raleway', sans-serif;
         font-size: 1em;
@@ -249,7 +249,7 @@ a:hover {
 }
 
 .idiomas ul li:hover{
-    color: gray;
+    color: #BCE4F5;
 }
 
 .idiomas ul a {
