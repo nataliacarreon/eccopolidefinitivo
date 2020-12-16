@@ -39,7 +39,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	height: 330vh;
-
+	background-color: #2F2F2F;
 }
 ol, ul {
 	list-style: none;
@@ -134,12 +134,13 @@ li {
     display: inline-block;
 }
 li a {
-    color: #3D94F9;
+    color: #FF9900;
     text-decoration: none;
     display: inline-block;
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+	font-size: 18px;
+	font-weight: bold;
 }
 li a:hover {
 	color: #9BC9FD;
@@ -185,12 +186,13 @@ li {
     display: inline-block;
 }
 li a {
-    color: #3D94F9;
+    color: #FF9900;
     text-decoration: none;
     display: inline-block;
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+	font-size: 18px;
+	font-weight: bold;
 }
 /* --------FIN---------menu------ */
 	
@@ -229,12 +231,13 @@ li {
     display: inline-block;
 }
 li a {
-    color: #3D94F9;
+    color: #FF9900;
     text-decoration: none;
     display: inline-block;
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 /* --------FIN---------menu------ */
@@ -275,12 +278,13 @@ li {
 	display: inline-block;
 }
 li a {
-    color: #3D94F9;
+    color: #FF9900;
     text-decoration: none;
     display: inline-block;
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+	font-size: 18px;
+	font-weight: bold;
 }
 /* --------FIN---------menu------ */
 	
@@ -320,12 +324,13 @@ li a {
 		display: inline-block;
 	}
 	li a {
-		color: #3D94F9;
+		color: #FF9900;
 		text-decoration: none;
 		display: block;
 		padding: 0 40px;
 		font-family: 'Raleway', sans-serif;
 		font-size: 14px;
+		font-weight: bold;
 	}
 
 	/* --------FIN---------menu------ */
@@ -366,12 +371,13 @@ li {
     display: block;
 }
 li a {
-    color: #3D94F9;
+    color: #FF9900;
     text-decoration: none;
 	display: block;
     padding: .2rem 40px;
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 
