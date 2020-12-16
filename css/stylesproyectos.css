@@ -134,14 +134,16 @@ li {
     display: inline-block;
 }
 li a {
-    color: black;
+    color: #3D94F9;
     text-decoration: none;
     display: inline-block;
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
 }
-
+li a:hover {
+	color: #9BC9FD;
+}
 
 /* --------FIN---------menu------ */
 	
@@ -183,7 +185,7 @@ li {
     display: inline-block;
 }
 li a {
-    color: black;
+    color: #3D94F9;
     text-decoration: none;
     display: inline-block;
     padding: 0 40px;
@@ -227,7 +229,7 @@ li {
     display: inline-block;
 }
 li a {
-    color: black;
+    color: #3D94F9;
     text-decoration: none;
     display: inline-block;
     padding: 0 40px;
@@ -273,7 +275,7 @@ li {
 	display: inline-block;
 }
 li a {
-    color: black;
+    color: #3D94F9;
     text-decoration: none;
     display: inline-block;
     padding: 0 40px;
@@ -318,7 +320,7 @@ li a {
 		display: inline-block;
 	}
 	li a {
-		color: black;
+		color: #3D94F9;
 		text-decoration: none;
 		display: block;
 		padding: 0 40px;
@@ -364,7 +366,7 @@ li {
     display: block;
 }
 li a {
-    color: black;
+    color: #3D94F9;
     text-decoration: none;
 	display: block;
     padding: .2rem 40px;
@@ -376,7 +378,7 @@ li a {
 /* --------FIN---------menu------ */
   }
 
-  .title a {
+.title a {
     text-align: center;
     color: rgb(0, 0, 0);
     font-family:'Raleway', sans-serif;
@@ -389,7 +391,7 @@ li a {
     position: absolute;
     width: 100vw;
     justify-content: right;
-    z-index: 90;
+	z-index: 90;
 }
 
 .idiomas ul {
@@ -399,24 +401,20 @@ li a {
     margin: 1 em;
 }
 
-.idiomas ul li{
-    color: rgb(0, 0, 0);
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-        font-size: 1em;
-        padding: 1em;
-        list-style: none;
+.idiomas ul li {
+    color: #3DBFF9;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    padding: 1em;
+	list-style: none;
+	text-decoration: underline;
 }
 
-.idiomas ul li:hover{
-    color: gray;
-}
-
-.idiomas ul a {
-        text-decoration: none;
+.idiomas ul li:hover {
+    color: #BCE4F5;
 }
  
-@media (max-width: 1281px){
+@media (max-width: 1281px) {
 	body {
 		display: block;
 	}

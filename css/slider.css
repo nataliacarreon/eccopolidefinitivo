@@ -116,12 +116,12 @@ body {
   }
 }
 .section .title {
-  background: #7be959;
+  background: #203896;
 }
 .section .title h2 {
   margin-top: 0;
   font-family: 'Raleway', sans-serif;
-  font-size: 56px;
+  font-size: 40px;
   /* font-weight: bold; */
 }
 .section .title .btn-primary {
