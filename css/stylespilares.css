@@ -1,6 +1,7 @@
 html {
 	box-sizing: border-box;
 	height: 100%;
+	background: rgb(243, 243, 243);	
   }
   
   *,
@@ -369,8 +370,8 @@ transition:filter 0.5s;
 }
 
 .enc.uno{
-	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/tit1.jpg);
-	background-position-y: 80%;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/fotouno.JPG);
+	background-position-y: 55%;
 }
 
 .enc.dos{
@@ -413,7 +414,7 @@ transition:filter 0.5s;
    font-size: 3rem;
    font-family: 'Raleway', sans-serif;
 	z-index: 1;
-	color: rgb(0, 0, 0);
+	color: #ff9900;
 	/* mix-blend-mode: lighten; */
 	
 }
@@ -423,7 +424,7 @@ h3 {
    font-size: 2.5rem;
    font-family: 'Raleway', sans-serif;
 	z-index: 1;
-	color: rgb(0, 0, 0);
+	color: #ff9900;
 	margin-bottom: 2rem;
 	/* mix-blend-mode: lighten; */
 	
@@ -472,7 +473,7 @@ h3 {
 	height: 50vh;
 	margin: 30px;
 	overflow: hidden;
-	background-image: url(../images/homre1.jpg);
+	background-image: url(../images/reunión.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-x: center;
@@ -484,10 +485,10 @@ h3 {
 	height: 50vh;
 	margin: 30px;
 	overflow: hidden;
-	background-image: url(../images/mujer2.jpg);
+	background-image: url(../images/Forum\ Género\ Ferrier\ 4.JPG);
 	background-repeat: no-repeat;
 	background-position-x: right;
-	background-position-y: 90%;
+	background-position-y: 50%;
   	background-size: cover;
 }
 .tresimg {
@@ -495,7 +496,7 @@ h3 {
 	height: 50vh;
 	margin: 30px;
 	overflow: hidden;
-	background-image: url(../images/sust1.jpg);
+	background-image: url(../images/IMG_2088.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-x: center;
@@ -567,7 +568,7 @@ p {
 }
 
 .idiomas ul li{
-    color: rgb(0, 0, 0);
+    color: #3dbff9;
         text-decoration: none;
         font-family: 'Raleway', sans-serif;
         font-size: 1em;
@@ -576,7 +577,7 @@ p {
 }
 
 .idiomas ul li:hover{
-    color: gray;
+    color: #BCE4F5;
 }
 
 .idiomas ul a {
