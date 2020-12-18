@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text|Open+Sans:300&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Contact</title>
+    <title>Contacto</title>
 </head>
 <body>
         <div class="idiomas">
@@ -22,13 +22,13 @@
                   <li>English</li>
                 </a>
                 <a href="indexfr.html">
-                  <li>francais</li>
+                  <li>Français</li>
                 </a>
               </ul>
               </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <nav id="ecco">
-        <a href="../indexin.html">
+        <a href="../index.html">
             <img class="center" src="../images/eccopoly-logo-negro.png" alt="logo" style="width: 30%;">
         </a>
     </nav>
@@ -37,13 +37,14 @@
         <li><a href="../nosotros/indexin.html" class="line">About Us</a></li>
         <li><a href="../pilares/indexin.html" class="line">Pillars</a></li>
         <li><a href="../contacto/indexin.html" class="line">Contact</a></li>
-    </nav>
+     </nav>
     <section class="contacto">
         <div class="parallax-text-wrap"><span class="parallax-text">Contact</span>
         </div>
     </section>
-
+    <section class="background">
     <div class="containercontacto">
+      <div class="box12"> 
     <div id="box-contact">
         <h2>CONTACT</h2>
         <h4>US</h4>
@@ -67,71 +68,78 @@
             </div>
         </div>
     </div>
-<section class="background">
-    <div class="bounceInLeft">
-        <div id="box-mensaje">
-            <h2>SEND A</h2>
-            <h4>MESSAGE</h4>
-            <br>
-            <div>
-                <div class="form">
-                    <div>
-                <form method="POST" action="mail.php" >
-                <input type="text" id="fname" name="fisrtname" placeholder="Name">
-                <input type="text" id="lname" name="lastame" placeholder="Second Name">
-                <input type="text" id="phnumber" name="phonenumber" placeholder="Cellphone">
-                <input type="text" id="email" name="email" placeholder="Email">
-            </div><div>
-                <input type="text" id="mensaje" name="mensaje" placeholder="Leave ypur message">
-                <input type="submit" id="submit" value="SUBMIT"></div>
-            </form>
-            </div>
-        </div>
-    </div>
-</div>
-    <div class="bounceInButtom">
+    
+ 
+    
+        <div class="bounceInButtom">
+            <div id="box-donar"> 
             <div class="soportemos">
-                    <h1>SUPPORT OUR PROGRAM</h1>
+                <h1>SUPPORT OUR PROGRAM</h1>
                     </div>
         
         <div id="box-donate">
                 
                 <div class="imgdonate">
-                        <img src="../images/donate-img.jpg" alt="img">
+                    <img src="../images/IMG_2068.jpg" alt="img">
+    
                         </div>
-                        <div class="datosdonar">
-            <button class="button">$50</button>
-            <button class="button">$100</button>
-            <button class="button">$200</button>
-            <button class="button">$500</button>
-            <button class="button">$1000</button>
-            <input type="text" id="cantidad" name="cantidad" placeholder="other quantity">
-            <div class="textpago">
-            <h6>CHOOSE</h6>
-            <h3>PAYMENT</h3>
+                        <form action="https://www.paypal.com/donate" method="post" target="_top">
+                            <input type="hidden" name="hosted_button_id" value="RQ2SQDXTJYZUQ" />
+                            <input class="boton-donar" type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                            <img alt="" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="1" height="1" />
+                            </form>
+    </div>
+    </div>
+    </div>
+</div> 
+    <div class="bounceInLeft">
+        <div id="box-mensaje">
+            <div>
+                <h2>SEND A</h2>
+                <h4>MESSAGE</h4>
+            <br>
         </div>
-            <div id="botones-donar">
-                <button class="button2 ">
-                    <p>DONATE</p>
-                    <div>
-                        <i class="fab fa-cc-mastercard" style="font-size: 45px; color: white;"></i>
-                        <i class="fab fa-cc-visa" style="font-size: 45px; color: white;"></i>
+            <div>
+                <div class="form">
+                <form method="POST" action="mail.php" >
+                <input type="text" id="fname" name="fisrtname" placeholder="Name">
+                <input type="text" id="lname" name="lastame" placeholder="Second Name">
+                <input type="text" id="phnumber" name="phonenumber" placeholder="Cellphone">
+                <input type="text" id="email" name="email" placeholder="Email">
+                <input type="text" id="mensaje" name="mensaje" placeholder="Leave ypur message">
+                <div id="sub" onclick=show()>
+                    <input type="submit" value="SUBMIT" id="submit">
                     </div>
-                </button>
-                <button class="button2 ">
-                    <p>DONATE</p>
-                <div>
-                    <i class="fab fa-paypal" style="font-size: 42px; color: white;"></i>
-                    <i class="fab fa-cc-paypal" style="font-size: 42px; color: white;"></i>
+                </form>
                 </div>
-                </button>
-                
             </div>
         </div>
     </div>
+    
+    
+    
     </div>
+    <div class="alert-success" id="success">
+        <span class="closebtn">&times;</span>  
+        <strong>Message sent! </strong> we will contact you soon.
+      </div>
     </section>
-</div>
+    <script>
+      function show(){
+        document.getElementById("success").style.visibility  = "visible";
+          }
+          
+        var close = document.getElementsByClassName("closebtn");
+        var i;
+        
+        for (i = 0; i < close.length; i++) {
+          close[i].onclick = function(){
+            var div = this.parentElement;
+            div.style.visibility = "hidden";
+          }
+        }
+        
+        </script>
     <script type="text/javascript" src="../js/parallax.js"></script>
 </body>
 </html>

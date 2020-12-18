@@ -22,7 +22,7 @@
                   <li>English</li>
                 </a>
                 <a href="indexfr.html">
-                  <li>francais</li>
+                  <li>Français</li>
                 </a>
               </ul>
               </div>
@@ -80,7 +80,7 @@
         <div id="box-donate">
                 
                 <div class="imgdonate">
-                        <img src="../images/donate-img.jpg" alt="img">
+                        <img src="../images/IMG_2068.jpg" alt="img">
     
                         </div>
                         <form action="https://www.paypal.com/donate" method="post" target="_top">
@@ -107,8 +107,8 @@
                 <input type="text" id="phnumber" name="phonenumber" placeholder="Celular">
                 <input type="text" id="email" name="email" placeholder="Email">
                 <input type="text" id="mensaje" name="mensaje" placeholder="Deja tu mensaje">
-                <div>
-                <input type="submit" id="submit" value="SUBMIT">
+                <div id="sub" onclick=show()>
+                <input type="submit" value="SUBMIT" id="submit">
                 </div>
             </form>
             </div>
@@ -119,7 +119,27 @@
 
 
 </div>
+<div class="alert-success" id="success">
+    <span class="closebtn">&times;</span>  
+    <strong>!Mensaje enviado!</strong> pronto nos contactaremos contigo.
+  </div>
 </section>
+<script>
+  function show(){
+    document.getElementById("success").style.visibility  = "visible";
+      }
+      
+    var close = document.getElementsByClassName("closebtn");
+    var i;
+    
+    for (i = 0; i < close.length; i++) {
+      close[i].onclick = function(){
+        var div = this.parentElement;
+        div.style.visibility = "hidden";
+      }
+    }
+    
+    </script>
     <script type="text/javascript" src="../js/parallax.js"></script>
 </body>
 </html>

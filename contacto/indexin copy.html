@@ -28,26 +28,25 @@
               </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <nav id="ecco">
-        <a href="../index.html">
+        <a href="../indexin.html">
             <img class="center" src="../images/eccopoly-logo-negro.png" alt="logo" style="width: 30%;">
         </a>
     </nav>
     <nav>
-        <li><a href="../proyectos/indexfr.html" class="line">Projets</a></li>
-        <li><a href="../nosotros/indexfr.html" class="line">Nous</a></li>
-        <li><a href="../pilares/indexfr.html" class="line">Piliers</a></li>
-        <li><a href="../contacto/indexfr.html" class="line">Contact</a></li>
+        <li><a href="../proyectos/indexin.html" class="line">Projects</a></li>
+        <li><a href="../nosotros/indexin.html" class="line">About Us</a></li>
+        <li><a href="../pilares/indexin.html" class="line">Pillars</a></li>
+        <li><a href="../contacto/indexin.html" class="line">Contact</a></li>
     </nav>
     <section class="contacto">
         <div class="parallax-text-wrap"><span class="parallax-text">Contact</span>
         </div>
     </section>
-    <section class="background">
+
     <div class="containercontacto">
-      <div class="box12"> 
     <div id="box-contact">
-        <h2>NOUS</h2>
-        <h4>CONTACT</h4>
+        <h2>CONTACT</h2>
+        <h4>US</h4>
         <div class="a"><i class="far fa-envelope" style="color: white; padding: 0 1rem 0 0;"></i><a href="javascript:location='mailto:\u0065\u0063\u0063\u006f\u0070\u006f\u006c\u0069\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><script type="text/javascript">document.write('\u0065\u0063\u0063\u006f\u0070\u006f\u006c\u0069\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d')</script></a>
         </div>
         <div class="b"><i class="fas fa-phone-alt" style="color: white; padding: 0 1rem 0 0;"></i>CDMX: +(52)55-6168-0056 EE.UU. : +1(949) 870-9787 Haití: +509 40-03-1679
@@ -68,78 +67,71 @@
             </div>
         </div>
     </div>
-    
- 
-    
-        <div class="bounceInButtom">
-            <div id="box-donar"> 
+<section class="background">
+    <div class="bounceInLeft">
+        <div id="box-mensaje">
+            <h2>SEND A</h2>
+            <h4>MESSAGE</h4>
+            <br>
+            <div>
+                <div class="form">
+                    <div>
+                <form method="POST" action="mail.php" >
+                <input type="text" id="fname" name="fisrtname" placeholder="Name">
+                <input type="text" id="lname" name="lastame" placeholder="Second Name">
+                <input type="text" id="phnumber" name="phonenumber" placeholder="Cellphone">
+                <input type="text" id="email" name="email" placeholder="Email">
+            </div><div>
+                <input type="text" id="mensaje" name="mensaje" placeholder="Leave ypur message">
+                <input type="submit" id="submit" value="SUBMIT"></div>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="bounceInButtom">
             <div class="soportemos">
-                <h1>NOUS SOUTENONS ENSEMBLE</h1>
+                    <h1>SUPPORT OUR PROGRAM</h1>
                     </div>
         
         <div id="box-donate">
                 
                 <div class="imgdonate">
-                    <img src="../images/IMG_2068.jpg" alt="img">
-    
+                        <img src="../images/donate-img.jpg" alt="img">
                         </div>
-                        <form action="https://www.paypal.com/donate" method="post" target="_top">
-                            <input type="hidden" name="hosted_button_id" value="RQ2SQDXTJYZUQ" />
-                            <input class="boton-donar" type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                            <img alt="" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="1" height="1" />
-                            </form>
-    </div>
-    </div>
-    </div>
-</div> 
-    <div class="bounceInLeft">
-        <div id="box-mensaje">
-            <div>
-                <h2>LAISSEZ-NOUS UN</h2>
-                <h4>MESSAGE</h4>
-            <br>
+                        <div class="datosdonar">
+            <button class="button">$50</button>
+            <button class="button">$100</button>
+            <button class="button">$200</button>
+            <button class="button">$500</button>
+            <button class="button">$1000</button>
+            <input type="text" id="cantidad" name="cantidad" placeholder="other quantity">
+            <div class="textpago">
+            <h6>CHOOSE</h6>
+            <h3>PAYMENT</h3>
         </div>
-            <div>
-                <div class="form">
-                <form method="POST" action="mail.php" >
-                <input type="text" id="fname" name="fisrtname" placeholder="Nom">
-                <input type="text" id="lname" name="lastame" placeholder="Le nom">
-                <input type="text" id="phnumber" name="phonenumber" placeholder="Téléphone">
-                <input type="text" id="email" name="email" placeholder="Email">
-                <input type="text" id="mensaje" name="mensaje" placeholder="Laissez nous votre message">
-                <div id="sub" onclick=show()>
-                    <input type="submit" value="SUBMIT" id="submit">
+            <div id="botones-donar">
+                <button class="button2 ">
+                    <p>DONATE</p>
+                    <div>
+                        <i class="fab fa-cc-mastercard" style="font-size: 45px; color: white;"></i>
+                        <i class="fab fa-cc-visa" style="font-size: 45px; color: white;"></i>
                     </div>
-                </form>
+                </button>
+                <button class="button2 ">
+                    <p>DONATE</p>
+                <div>
+                    <i class="fab fa-paypal" style="font-size: 42px; color: white;"></i>
+                    <i class="fab fa-cc-paypal" style="font-size: 42px; color: white;"></i>
                 </div>
+                </button>
+                
             </div>
         </div>
     </div>
-    
-    
-    
     </div>
-    <div class="alert-success" id="success">
-        <span class="closebtn">&times;</span>  
-        <strong>Message envoyé</strong> nous vous contacterons bientôt.
-      </div>
     </section>
-    <script>
-      function show(){
-        document.getElementById("success").style.visibility  = "visible";
-          }
-          
-        var close = document.getElementsByClassName("closebtn");
-        var i;
-        
-        for (i = 0; i < close.length; i++) {
-          close[i].onclick = function(){
-            var div = this.parentElement;
-            div.style.visibility = "hidden";
-          }
-        }
-        
-        </script>
+</div>
     <script type="text/javascript" src="../js/parallax.js"></script>
 </body>
 </html>
