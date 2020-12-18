@@ -42,8 +42,9 @@
         <div class="parallax-text-wrap"><span class="parallax-text">Contacto</span>
         </div>
     </section>
-
+    <section class="background">
     <div class="containercontacto">
+      <div class="box12"> 
     <div id="box-contact">
         <h2>NUESTRO</h2>
         <h4>CONTACTO</h4>
@@ -67,29 +68,11 @@
             </div>
         </div>
     </div>
-<section class="background">
-    <div class="bounceInLeft">
-        <div id="box-mensaje">
-            <h2>DEJANOS UN</h2>
-            <h4>MENSAJE</h4>
-            <br>
-            <div>
-                <div class="form">
-                    <div>
-                <form method="POST" action="mail.php" >
-                <input type="text" id="fname" name="fisrtname" placeholder="Nombre">
-                <input type="text" id="lname" name="lastame" placeholder="Apellidos">
-                <input type="text" id="phnumber" name="phonenumber" placeholder="Celular">
-                <input type="text" id="email" name="email" placeholder="Email">
-            </div><div>
-                <input type="text" id="mensaje" name="mensaje" placeholder="Deja tu mensaje">
-                <input type="submit" id="submit" value="SUBMIT"></div>
-            </form>
-            </div>
-        </div>
-    </div>
-</div>
-    <div class="bounceInButtom">
+    
+ 
+    
+        <div class="bounceInButtom">
+            <div id="box-donar"> 
             <div class="soportemos">
                     <h1>SOPORTEMOS JUNTOS A LA CAUSA</h1>
                     </div>
@@ -98,40 +81,45 @@
                 
                 <div class="imgdonate">
                         <img src="../images/donate-img.jpg" alt="img">
+    
                         </div>
-                        <div class="datosdonar">
-            <button class="button">$50</button>
-            <button class="button">$100</button>
-            <button class="button">$200</button>
-            <button class="button">$500</button>
-            <button class="button">$1000</button>
-            <input type="text" id="cantidad" name="cantidad" placeholder="otra cantidad">
-            <div class="textpago">
-            <h6>ELIJE</h6>
-            <h3>TU PAGO</h3>
+                        <form action="https://www.paypal.com/donate" method="post" target="_top">
+                            <input type="hidden" name="hosted_button_id" value="RQ2SQDXTJYZUQ" />
+                            <input class="boton-donar" type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                            <img alt="" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="1" height="1" />
+                            </form>
+    </div>
+    </div>
+    </div>
+</div> 
+    <div class="bounceInLeft">
+        <div id="box-mensaje">
+            <div>
+            <h2>DEJANOS UN</h2>
+            <h4>MENSAJE</h4>
+            <br>
         </div>
-            <div id="botones-donar">
-                <button class="button2 ">
-                    <p>DONAR</p>
-                    <div>
-                        <i class="fab fa-cc-mastercard" style="font-size: 45px; color: white;"></i>
-                        <i class="fab fa-cc-visa" style="font-size: 45px; color: white;"></i>
-                    </div>
-                </button>
-                <button class="button2 ">
-                    <p>DONAR</p>
+            <div>
+                <div class="form">
+                <form method="POST" action="mail.php" >
+                <input type="text" id="fname" name="fisrtname" placeholder="Nombre">
+                <input type="text" id="lname" name="lastame" placeholder="Apellidos">
+                <input type="text" id="phnumber" name="phonenumber" placeholder="Celular">
+                <input type="text" id="email" name="email" placeholder="Email">
+                <input type="text" id="mensaje" name="mensaje" placeholder="Deja tu mensaje">
                 <div>
-                    <i class="fab fa-paypal" style="font-size: 42px; color: white;"></i>
-                    <i class="fab fa-cc-paypal" style="font-size: 42px; color: white;"></i>
+                <input type="submit" id="submit" value="SUBMIT">
                 </div>
-                </button>
-                
+            </form>
             </div>
         </div>
     </div>
-    </div>
-    </section>
 </div>
+
+
+
+</div>
+</section>
     <script type="text/javascript" src="../js/parallax.js"></script>
 </body>
 </html>

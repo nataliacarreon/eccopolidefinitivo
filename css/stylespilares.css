@@ -563,35 +563,35 @@ p {
 .idiomas ul {
     display: inline-flex;
     position: absolute;
-    padding: 1em;
+    padding: 2em;
     margin: 1 em;
 }
 
 .idiomas ul li{
-    color: #3dbff9;
+    color:#3DBFF9;
         text-decoration: none;
         font-family: 'Raleway', sans-serif;
         font-size: 1em;
         padding: 1em;
         list-style: none;
+        text-decoration: underline;
 }
 
 .idiomas ul li:hover{
     color: #BCE4F5;
 }
 
-.idiomas ul a {
-        text-decoration: none;
-}
+
+
 @media (max-width: 1281px){
 	body {
-		display: block;
+        display: block;
+        max-width: 100vw;
+        /* height: auto;
+        overflow: hidden; */
 	}
 	.idiomas{
 		position: relative;
 		margin: .5rem 0 3rem 0;
 		font-size: .8em;
-	}
-
-	
-}
+    }
