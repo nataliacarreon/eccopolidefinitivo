@@ -570,7 +570,9 @@ button {
 }
 
 
-
+.mobilecontainer {
+    display: none;
+}
 @media (max-width: 1281px){
 	body {
         display: block;
@@ -583,10 +585,10 @@ button {
 		margin: .5rem 0 3rem 0;
 		font-size: .8em;
     }
-    
-.mobilecontainer {
-    display: none;
+
+
 }
+
 @media (max-width: 560px){
 	body {
 		display: block;
