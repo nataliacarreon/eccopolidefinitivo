@@ -140,10 +140,22 @@ li a {
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
 	font-size: 18px;
-	font-weight: bold;
 }
 li a:hover {
 	color: #9BC9FD;
+}
+
+.line:hover::after {
+    width: 100%;
+	transition: width .5s
+}
+.line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 1s;
 }
 
 /* --------FIN---------menu------ */
@@ -192,7 +204,20 @@ li a {
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
 	font-size: 18px;
-	font-weight: bold;
+}
+
+.line:hover::after {
+    width: 100%;
+	transition: width .5s
+}
+
+.line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 5s;
 }
 /* --------FIN---------menu------ */
 	
@@ -237,7 +262,20 @@ li a {
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
 	font-size: 18px;
-	font-weight: bold;
+}
+
+.line:hover::after {
+    width: 100%;
+	transition: width .5s
+}
+
+.line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 5s;
 }
 
 /* --------FIN---------menu------ */
@@ -284,7 +322,20 @@ li a {
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
 	font-size: 18px;
-	font-weight: bold;
+}
+
+.line:hover::after {
+    width: 100%;
+	transition: width .5s
+}
+
+.line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 5s;
 }
 /* --------FIN---------menu------ */
 	
@@ -330,7 +381,20 @@ li a {
 		padding: 0 40px;
 		font-family: 'Raleway', sans-serif;
 		font-size: 14px;
-		font-weight: bold;
+	}
+
+	.line:hover::after {
+		width: 100%;
+		transition: width .5s
+	}
+
+	.line::after {
+		content: '';
+		display: block;
+		width: 0;
+		height: 2px;
+		background: #fff;
+		transition: width 5s;
 	}
 
 	/* --------FIN---------menu------ */
@@ -377,9 +441,21 @@ li a {
     padding: .2rem 40px;
     font-family: 'Raleway', sans-serif;
 	font-size: 14px;
-	font-weight: bold;
 }
 
+.line:hover::after {
+    width: 100%;
+	transition: width .5s
+}
+
+.line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 5s;
+}
 
 /* --------FIN---------menu------ */
   }
@@ -396,37 +472,42 @@ li a {
     display: inline-flex;
     position: absolute;
     width: 100vw;
-    justify-content: right;
-	z-index: 90;
+    justify-content: left;
+    z-index: 90;
 }
 
 .idiomas ul {
     display: inline-flex;
     position: absolute;
-    padding: 1em;
+    padding: 2em;
     margin: 1 em;
 }
 
-.idiomas ul li {
-    color: #3DBFF9;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1em;
-    padding: 1em;
-	list-style: none;
-	text-decoration: underline;
+.idiomas ul li{
+    color:#3DBFF9;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1em;
+        padding: 1em;
+        list-style: none;
+        text-decoration: underline;
 }
 
-.idiomas ul li:hover {
+.idiomas ul li:hover{
     color: #BCE4F5;
 }
- 
-@media (max-width: 1281px) {
+
+
+
+@media (max-width: 1281px){
 	body {
-		display: block;
+        display: block;
+        max-width: 100vw;
+        /* height: auto;
+        overflow: hidden; */
 	}
 	.idiomas{
 		position: relative;
 		margin: .5rem 0 3rem 0;
 		font-size: .8em;
-	}
-}
+    }
