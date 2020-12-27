@@ -140,10 +140,22 @@ li a {
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
 	font-size: 18px;
-	font-weight: bold;
 }
 li a:hover {
 	color: #9BC9FD;
+}
+
+.line:hover::after {
+    width: 100%;
+	transition: width .5s
+}
+.line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 1s;
 }
 
 /* --------FIN---------menu------ */
@@ -192,7 +204,20 @@ li a {
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
 	font-size: 18px;
-	font-weight: bold;
+}
+
+.line:hover::after {
+    width: 100%;
+	transition: width .5s
+}
+
+.line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 5s;
 }
 /* --------FIN---------menu------ */
 	
@@ -237,7 +262,20 @@ li a {
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
 	font-size: 18px;
-	font-weight: bold;
+}
+
+.line:hover::after {
+    width: 100%;
+	transition: width .5s
+}
+
+.line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 5s;
 }
 
 /* --------FIN---------menu------ */
@@ -284,7 +322,20 @@ li a {
     padding: 0 40px;
     font-family: 'Raleway', sans-serif;
 	font-size: 18px;
-	font-weight: bold;
+}
+
+.line:hover::after {
+    width: 100%;
+	transition: width .5s
+}
+
+.line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 5s;
 }
 /* --------FIN---------menu------ */
 	
@@ -330,7 +381,20 @@ li a {
 		padding: 0 40px;
 		font-family: 'Raleway', sans-serif;
 		font-size: 14px;
-		font-weight: bold;
+	}
+
+	.line:hover::after {
+		width: 100%;
+		transition: width .5s
+	}
+
+	.line::after {
+		content: '';
+		display: block;
+		width: 0;
+		height: 2px;
+		background: #fff;
+		transition: width 5s;
 	}
 
 	/* --------FIN---------menu------ */
@@ -377,9 +441,21 @@ li a {
     padding: .2rem 40px;
     font-family: 'Raleway', sans-serif;
 	font-size: 14px;
-	font-weight: bold;
 }
 
+.line:hover::after {
+    width: 100%;
+	transition: width .5s
+}
+
+.line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 5s;
+}
 
 /* --------FIN---------menu------ */
   }

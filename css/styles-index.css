@@ -241,7 +241,6 @@ a:hover {
 
 .idiomas ul li{
     color:#3DBFF9;
-        text-decoration: none;
         font-family: 'Raleway', sans-serif;
         font-size: 1em;
         padding: 1em;
@@ -253,5 +252,4 @@ a:hover {
 }
 
 .idiomas ul a {
-        text-decoration: none;
 }
