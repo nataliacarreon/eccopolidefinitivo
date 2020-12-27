@@ -302,11 +302,11 @@ width: 30%;
 
 nav {
 	position: relative;
-	display: block;
+	display: flex;
 	top: 5%;
 	justify-content: center;
 	z-index: 3;
-	padding: 2rem 0rem 0rem 1rem;
+	padding: 3rem 0rem 0rem 0rem;
 	
 }
 li {
@@ -564,7 +564,7 @@ p {
     display: inline-flex;
     position: absolute;
     padding: 2em;
-    margin: 1 em;
+    margin: 1em;
 }
 
 .idiomas ul li{
@@ -594,4 +594,43 @@ p {
 		position: relative;
 		margin: .5rem 0 3rem 0;
 		font-size: .8em;
-    }
+	}
+}
+
+@media (min-width: 20px) and (max-width: 480px) {
+        
+	/* --------INICIO---------menu------ */
+
+/*Logo*/
+
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+}	
+
+nav {
+	position: relative;
+	display: block;
+	top: 5%;
+	justify-content: center;
+	z-index: 3;
+	padding: 2rem 0rem 0rem 1rem;
+	
+}
+li {
+	display: block;
+}
+li a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: .2rem 40px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+}
+
+
+/* --------FIN---------menu------ */
+  }
