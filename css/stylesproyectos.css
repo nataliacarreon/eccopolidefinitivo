@@ -472,7 +472,7 @@ li a {
     display: inline-flex;
     position: absolute;
     width: 100vw;
-    justify-content: left;
+    justify-content: right;
     z-index: 90;
 }
 
