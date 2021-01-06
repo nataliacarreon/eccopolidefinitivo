@@ -40,6 +40,12 @@ body {
 	/* height: 330vh; */
 
 }
+header {
+    width: 100%;
+    /*background: #000;*/
+    margin: 10px auto;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -64,6 +70,9 @@ table {
     width: 30%;
     padding-top: 3em;
 }
+.menu{
+    margin-bottom: 4rem;
+}
 
 /* 
   ##Device = Desktops
@@ -72,13 +81,17 @@ table {
 
 @media (min-width: 1281px) {
     /*Logo*/
-    
-    .center{
+    #ecco {
+        position: relative;
+        padding-left: 3rem;
+    }
+    .center {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 30%;
-    }	
+        height: 100%;
+    }
     nav {
         position: relative;
         display: flex;
@@ -91,14 +104,30 @@ table {
         display: inline-block;
     }
     li a {
-        color: black;
+        color: #000;
         text-decoration: none;
         display: inline-block;
         padding: 0 40px;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
     }
+    li a:hover {
+        color: #9BC9FD;
+    }
     
+    .line:hover::after {
+        width: 100%;
+        transition: width .5s
+    }
+    .line::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: width 1s;
+    }
+  
     /* --------FIN---------menu------ */
         
       }
@@ -112,13 +141,21 @@ table {
         
     /* --------INICIO---------menu------ */
     /*Logo*/
+    .menu{
+        height: 30vh;
+    }
     
-    .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    }	
+    #ecco {
+        position: relative;
+        padding-left: 3rem;
+    }
+    #title {
+        color: rgb(0, 0, 0);
+        font-family:'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
     nav {
         position: relative;
         display: flex;
@@ -132,13 +169,27 @@ table {
         display: inline-block;
     }
     li a {
-        color: black;
+        color: #FF9900;
         text-decoration: none;
         display: inline-block;
         padding: 0 40px;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
     }
+    
+    .line:hover::after {
+        width: 100%;
+        transition: width .5s
+    }
+    
+    .line::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: width 5s;
+    }  
     /* --------FIN---------menu------ */
         
       }
@@ -152,34 +203,52 @@ table {
         
         /* --------INICIO---------menu------ */
     /*Logo*/
-    
-    .center{
+    #ecco {
+		position: relative;
+		padding-left: 3rem;
+	}
+	#title {
+		color: rgb(0, 0, 0);
+		font-family:'Raleway', sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+nav {
+	position: relative;
+	display: flex;
+	top: 5%;
+	justify-content: center;
+	z-index: 3;
+	padding: 3rem 0rem 0rem 0rem;
+	
+}
+li {
+    display: inline-block;
+}
+li a {
+    color: #FF9900;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 40px;
+    font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+}
+
+.line:hover::after {
+    width: 100%;
+	transition: width .5s
+}
+
+.line::after {
+    content: '';
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    }	
-    
-    nav {
-        position: relative;
-        display: flex;
-        top: 5%;
-        justify-content: center;
-        z-index: 3;
-        padding: 3rem 0rem 0rem 0rem;
-        
-    }
-    li {
-        display: inline-block;
-    }
-    li a {
-        color: black;
-        text-decoration: none;
-        display: inline-block;
-        padding: 0 40px;
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-    }
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 5s;
+}
+
     
     /* --------FIN---------menu------ */
         
@@ -194,13 +263,16 @@ table {
         
         /* --------INICIO---------menu------ */
     /*Logo*/
-    
-    .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    }	
+    #ecco {
+        position: relative;
+        padding-left: 3rem;
+    }
+    #title {
+        color: rgb(0, 0, 0);
+        font-family:'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
     
     nav {
         position: relative;
@@ -215,13 +287,28 @@ table {
         display: inline-block;
     }
     li a {
-        color: black;
+        color: #FF9900;
         text-decoration: none;
         display: inline-block;
         padding: 0 40px;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
     }
+    
+    .line:hover::after {
+        width: 100%;
+        transition: width .5s
+    }
+    
+    .line::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: width 5s;
+    }
+
     /* --------FIN---------menu------ */
         
       }
@@ -236,14 +323,18 @@ table {
         /* --------INICIO---------menu------ */
     
         /*Logo*/
+        #ecco {
+            position: relative;
+            padding-left: 40px;
+            text-align: left;
+        }
+        #title {
+            color: rgb(0, 0, 0);
+            font-family:'Raleway', sans-serif;
+            font-size: 10px;
+            font-weight: bold;
+        }
         
-        .center{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 30%;
-        }	
-    
         nav {
             position: relative;
             display: block;
@@ -257,13 +348,28 @@ table {
             display: inline-block;
         }
         li a {
-            color: black;
+            color: #FF9900;
             text-decoration: none;
             display: block;
             padding: 0 40px;
             font-family: 'Raleway', sans-serif;
             font-size: 14px;
         }
+    
+        .line:hover::after {
+            width: 100%;
+            transition: width .5s
+        }
+    
+        .line::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #fff;
+            transition: width 5s;
+        }
+   
     
         /* --------FIN---------menu------ */
         
@@ -280,12 +386,17 @@ table {
     
     /*Logo*/
     
-    .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    }	
+    #ecco {
+        position: relative;
+        padding-left: 3rem;
+    }
+    
+    #title {
+        color: rgb(0, 0, 0);
+        font-family:'Raleway', sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+    }
     
     nav {
         position: relative;
@@ -300,7 +411,7 @@ table {
         display: block;
     }
     li a {
-        color: black;
+        color: #FF9900;
         text-decoration: none;
         display: block;
         padding: .2rem 40px;
@@ -308,32 +419,63 @@ table {
         font-size: 14px;
     }
     
+    .line:hover::after {
+        width: 100%;
+        transition: width .5s
+    }
     
-    /* --------FIN---------menu------ */
-      }
-    
-    /* --------INICIO---------menu------ */
     .line::after {
         content: '';
         display: block;
         width: 0;
         height: 2px;
-        background: #000;
-        transition: width .5s;
+        background: #fff;
+        transition: width 5s;
     }
-    .line:hover::after {
-        width: 100%;
-        transition: width .5s;
-    }
-    a:hover {
-        color: lightgrey;
-    } 
     
-    .menu {
-        padding-bottom: 3rem;
-    } 
-/* --------FIN---------menu------*/
+    /* --------FIN---------menu------ */
+      }
+    
+  /* ---------------------------------idiomas--------------------------- */
+.idiomas{
+    display: inline-flex;
+    position: absolute;
+    width: 100vw;
+    justify-content: left;
+    z-index: 90;
+}
 
+.idiomas ul {
+    display: inline-flex;
+    position: absolute;
+    padding: 2em;
+    margin: 1 em;
+}
+
+.idiomas ul li{
+    color:#3DBFF9;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1em;
+        padding: 1em;
+        list-style: none;
+        text-decoration: underline;
+}
+
+.idiomas ul li:hover{
+    color: #BCE4F5;
+}
+
+
+
+@media (max-width: 1281px){
+	.idiomas{
+		position: relative;
+		margin: .5rem 0 3rem 0;
+		font-size: .8em;
+    }
+/* -------FIN-----IDIOMAS-----*/
+}
 /*imagen y texto*/
 .misioncontainer{
 
@@ -540,49 +682,7 @@ button {
 }
 
 /* ---------------------------------idiomas--------------------------- */
-.idiomas{
-    display: inline-flex;
-    position: absolute;
-    width: 100vw;
-    justify-content: right;
-    z-index: 90;
-}
 
-.idiomas ul {
-    display: inline-flex;
-    position: absolute;
-    padding: 1em;
-    margin: 1 em;
-}
-
-.idiomas ul li{
-    color: rgb(0, 0, 0);
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-        font-size: 1em;
-        padding: 1em;
-        list-style: none;
-}
-
-.idiomas ul li:hover{
-    color: gray;
-}
-
-.idiomas ul a {
-        text-decoration: none;
-}
-
-@media (max-width: 1281px){
-	body {
-		display: block;
-	}
-	.idiomas{
-		position: relative;
-		margin: .5rem 0 0rem 0;
-		font-size: .8em;
-    }
-    
-}
 .mobilecontainer {
     display: none;
 }
