@@ -56,12 +56,12 @@ html {
     width: 30%;
 }   
 nav {
-	position: relative;
-	display: flex;
-	top: 5%;
-	justify-content: center;
-	z-index: 3;
-	padding: 3rem 0rem 0rem 0rem;
+    position: relative;
+    display: flex;
+    top: 5%;
+    justify-content: center;
+    z-index: 3;
+    padding: 3rem 0rem 0rem 0rem;
 }
 li {
     display: inline-block;
@@ -302,11 +302,9 @@ a:hover {
 .contacto {
     padding: 150px 0;
     position: relative;
-    background-image: url(../images/contact-back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 71%;
-    opacity: 80%;
+    background-position-y: 66%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -314,23 +312,22 @@ a:hover {
     text-align: center;
     top: 3rem;
     overflow: hidden;
-}/*
-.parallax-text-wrap {
-    position: absolute;
-    width: 100%;
-    height: 23%;
 }
-.parallax-text {
-    position: absolute;
-    bottom: -90%;
-    left: 22%;
-    font-size: 120px;
-    letter-spacing: 0.28em;
-    text-transform: uppercase;
-    white-space: nowrap;
-    opacity: 60%;
-    font-family: 'Raleway', sans-serif;
-} */
+.enc.uno{
+    filter: grayscale(100%);
+	
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition:filter 0.5s;
+    -webkit-transition:-webkit-filter .3s;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/IMG_2080.jpg);}
+#enc1:hover{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+}
 
 	
 .parallax-text-wrap {
@@ -352,7 +349,7 @@ a:hover {
 	position: absolute;
 	display: flex;
     font-family: 'Rubik Mono One', sans-serif;
-	font-size: 12vw;
+	font-size: 150px;
 	/* letter-spacing: 0.28em; */
 	text-transform: uppercase;
 	color: tomato;
@@ -439,15 +436,15 @@ a:hover {
 .background {
     background-image: url(../images/contact-back.jpg);
     background-size: cover;
+
 }
 #box-mensaje {
     background-color: #ffff;
-    width: 60vw;
-    height: 80vh;
     padding: 2em;
     margin: 3rem;
     position: relative;
-    float: right;
+    display: flex;
+
 }
 
 #box-mensaje h2 {
@@ -464,48 +461,23 @@ a:hover {
     line-height: 50%;
     color:#000;
 }
-/* #fname {
-    width: 180px;
-    position: relative;
-    top: 70px;
-}
-#lname {
-    width: 180px;
-    position: relative;
-    top: 70px;
-    left: 57px;
-}
-#phnumber {
-    width: 180px;
-    position: relative;
-    top: 125px;
-    left: -370px;
-}
-#email {
-    width: 180px;
-    position: relative;
-    top: 125px;
-    left: 57px;
-}*/
+
 #mensaje {
-    width: 300px;
+    width: 60vw;
     height: 12rem;
     position: relative;
     top: .2rem;
     bottom: 2rem;
-    float: right;
 } 
 
-.form{
-    width: 400px;
-}
 
 .form input{
-    width: 400px;
+    width: 60vw;
     height: 3rem;
     margin: 1rem;
 }
 #submit {
+    
     width: 140px;
     height: 40px;
     background-color: #D9001B;
@@ -513,6 +485,7 @@ a:hover {
     /* position: relative;  */
     /* top: 200px;
     left: 280px; */
+    position: relative;
     border: none;
     border-radius: 29px;
     font-size: 13px;
@@ -538,51 +511,51 @@ h1 {
     animation-delay: 1s;
 }
 .bounceInButtom {
-    nimation-duration: 2s;
+    animation-duration: 2s;
     animation-delay: 1s;
 }
 .soportemos{
-    float: left;
-    padding: 2rem;
     margin: 3rem;
+    position: relative;
 }
 
 .imgdonate {
-    width: 48%;
+    min-width: 300px;
     /* height: 100%; */
     padding: 1em;
-    margin: 1em;
     background-color: #008CBA;
     overflow: hidden;
+    position: relative;
 }
 .imgdonate img {
-    width: 100%;
+    width: 300px;
     position: relative;
-    
-    /* top: 58rem;
-    left: 23rem; */
-    z-index: 1;
 }
-.datosdonar{
-    width: 50%;
-    height: 50vh;
-    float: right;
-    padding: 2rem;
+#box-donar{
+    position: relative;
+    display: block;
 }
 #box-donate {
     display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     /* top: 33rem; */
     /* left: 294px; */
     background-color: #fff;
-    width: 60vw;
-    height: 50vh;
     padding: 1rem;
     margin: 3rem;
     padding: 2rem;
+    width: 50vw;
+    min-width: 600px;
 }
+.box12 {
+    display: flex;
+}
+
+.boton-donar {
+    margin: 3rem;
+height: 50px;
+}
+
 .button {
   position: relative;
   /* top: -8rem;  
@@ -616,9 +589,6 @@ h1 {
     /* padding: 13px 49px; */
     border-radius: 12px;
     position: relative;
-    /* top: -11rem;
-    left: 40rem; */
-    /* margin: 31px; */
     color: white;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
@@ -686,7 +656,7 @@ div h3 {
 } 
 
 .containercontacto {
-    display: flex;
+    display: block;
     width: 100vw;
 }
 
@@ -702,33 +672,31 @@ div h3 {
 .idiomas ul {
     display: inline-flex;
     position: absolute;
-    padding: 1em;
-    margin: 1 em;
+    padding: 2em;
+    margin: 1em;
 }
 
 .idiomas ul li{
-    color: rgb(0, 0, 0);
+    color:#3DBFF9;
         text-decoration: none;
         font-family: 'Raleway', sans-serif;
         font-size: 1em;
         padding: 1em;
         list-style: none;
+        text-decoration: underline;
 }
 
 .idiomas ul li:hover{
-    color: gray;
+    color: #BCE4F5;
 }
 
-.idiomas ul a {
-        text-decoration: none;
-}
+
 
 @media (max-width: 1281px){
 	body {
         display: block;
         max-width: 100vw;
-        /* height: auto;
-        overflow: hidden; */
+        overflow-x: hidden;
 	}
 	.idiomas{
 		position: relative;
@@ -736,6 +704,14 @@ div h3 {
 		font-size: .8em;
     }
     
+    .background {
+        background-image: url(../images/contact-back.jpg);
+        background-size: cover;
+        background-position: bottom;
+    }
+    .enc.uno{
+        filter: grayscale(0%);
+    }
 .containercontacto{
     display: block;
 
@@ -745,22 +721,37 @@ div h3 {
     background-color: 
     #C28933;
     width: 90vw;
-    height: 60vh;
-    /* padding: 2em; */
-    /* margin: 3rem; */
-    z-index: 1;
+    height: 90vh;
 }
+.soportemos{
+    margin: 1rem;
+    position: relative;
+}
+div h1 {
+    justify-content: right;
 
+}
+.imgdonate {
+    width: 100vw;
+    /* height: 100%; */
+    padding: 1em;
+    background-color: #008CBA;
+    overflow: hidden;
+    position: relative;
+}
+.imgdonate img {
+    width: 90vw;
+    position: relative;
+}
     #box-mensaje {
         background-color: 
         #ffff;
         width: 100vw;
-        /* height: 80vh;
-        padding: 2em; */
         margin: 0rem;
         position: relative;
         display: block;
-        /* float: right; */
+        margin-top: 3rem;
+
     }
     .form input {
         width: 70vw;
@@ -781,33 +772,54 @@ div h3 {
     }
 .background{
     width: 100vw;
-    height: 200vh;
     position: absolute;
+}
+#box-donar{
+    position: relative;
+    display: block;
+    top: 3rem;
 }
 #box-donate {
     display: block;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* position: relative; */
-    /* top: 53rem; */
-    /* left: 294px; */
-    background-color: rgba(255, 255, 255, 0);
-    width: 90vw;
-    /* height: 50vh; */
-    /* padding: 1rem; */
-    /* margin: 3rem; */
+    position: relative;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    justify-items: center;
 }
-.imgdonate img {
-    display: none;
+.box12 {
+    display: block;
 }
-.datosdonar{
-    width: 90vw;
-    height: 50vh;
-    position: absolute;
-    background-color: white;
-    
-    /* float: right; */
-    /* padding: 2rem; */
+
+.parallax-text {
+	font-size: 50px;
 }
 
 }
+/*close*/
+.alert-success {
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    visibility: hidden;  
+
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
