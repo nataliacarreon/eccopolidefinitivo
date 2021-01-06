@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-family:'Raleway', sans-serif;
+
+}
+
+header .contenedor {
+    width: 95%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+header .idiomas {
+    margin: 60px 0;
+    text-align: left;
+}
+
+header .idiomas a {
+    color: #000;
+    margin: 0 20px;
+    padding-bottom: 5px;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+header .idiomas a:hover {
+    color: #629ada;
+}
+
+header .Logo {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+header .Logo img {
+    width: 100%;
+    vertical-align: top;
+}
+
+header .contenedor-menu {
+    display: flex;
+    justify-content: center;
+}
+
+header .contenedor-menu .menu {
+    margin: 20px 0;
+}
+
+header .contenedor-menu .menu a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+
+header .contenedor-menu .menu .line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .5s;
+}
+
+header .contenedor-menu .menu .line:hover::after {
+    width: 100%;
+    transition: width .5s;
+}
+
+@media screen and (max-width: 600px) {
+    header .idiomas {
+        text-align: center;
+    }
+
+    header .idiomas a {
+        font-size: 14px;
+    }
+
+    header .contenedor-menu .menu a {
+        display: block;
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
