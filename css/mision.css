@@ -65,7 +65,7 @@ header .contenedor {
 
 header .idiomas {
     margin: 60px 0;
-    text-align: left;
+    text-align: right;
 }
 
 header .idiomas a {

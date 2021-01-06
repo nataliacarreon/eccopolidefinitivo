@@ -1,6 +1,6 @@
 html {
 	box-sizing: border-box;
-	height: 100%;
+	width: 100vw;
 	font-family: 'Raleway', sans-serif;
   }
   
@@ -67,7 +67,7 @@ header .contenedor {
 
 header .idiomas {
     margin: 60px 0;
-    text-align: left;
+    text-align: right;
 }
 
 header .idiomas a {
