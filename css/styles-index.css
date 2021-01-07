@@ -67,7 +67,7 @@ html {
         border-collapse: collapse;
         border-spacing: 0;
     }
-.vid-haiti {
+    .vid-haiti {
     position: fixed;
     z-index: -1;
 } 
@@ -89,13 +89,23 @@ body {
     background-size: auto;
 }
 
-#ecco {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
+
+.container .logo {
+    width: 40%;
+    margin: auto;
+}
+
+.container .logo img {
+    width: 100%;
+}
+
 /*-----MobileFirst-----------*/
+
 /*Logo*/
 @media (max-width: 768px) {
 nav {
@@ -178,57 +188,12 @@ a:hover {
 }
 /*---FIN---MOBILE*/
 
-/* --------------------------PARALLAX------------------------------ */
-#scene div{
-    width: 100vw;
-    height: 100vh;
-
-}
-#flor1 {
-    /* tradicional; */
-    position: absolute;
-    width: 15vw;
-    top: 80vh;
-    left: 10vw; 
-}
-#flor2 {
-    position: absolute;
-    width: 70vw;
-    top: 50vh;
-    left: 0vw;
-    transform: rotate(60deg);
-}
-
-#flor3 {
-    /* picos; */
-    position: absolute;
-    width: 15vw;
-    top: -10vh;
-    left: 60vw;
-    transform: rotate(-40deg);
-}
-
-#flor4 {
-    /* hoja */
-    position: absolute;
-    width: 50vw;
-    top: -40vh;
-    left: 50vw;
-    transform: rotate(-120deg);
-}
-#flor5 {
-    /* hawai */
-    position: absolute;
-    width: 10vw;
-    top: 15vh;
-    left: 50vw;
-}
 /* ---------------------------------idiomas--------------------------- */
 .idiomas{
     display: inline-flex;
     position: absolute;
     width: 100vw;
-    justify-content: right;
+    text-align: left;
     z-index: 90;
 }
 
@@ -239,12 +204,9 @@ a:hover {
     margin: 1 em;
 }
 
-.idiomas ul li{
-    color:#3DBFF9;
-        font-family: 'Raleway', sans-serif;
-        font-size: 1em;
-        padding: 1em;
-        list-style: none;
+.idiomas ul li{    
+    padding: 1em;
+    list-style: none;
 }
 
 .idiomas ul li:hover{
@@ -252,4 +214,7 @@ a:hover {
 }
 
 .idiomas ul a {
+    font-size: 1em;
+    color:#3DBFF9;
+    font-family: 'Raleway', sans-serif;
 }
