@@ -224,7 +224,7 @@ body:before {
 .swiper-slide .details h3 span {
     font-size: .5em;
     color: #000000; 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 /* -------------------------PARALLAX TEXTO--------------- */
 .enc {	
@@ -300,7 +300,7 @@ p {
 	line-height: 27px;
     font-size: 18px;
     color: rgb(0, 0, 0);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2{
