@@ -192,12 +192,12 @@ transition:filter 0.5s;
 }
 
 .enc.dos{
-	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/tit2.jpg);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/fondiux.jpg);
 	background-position-y: 55%;
 }
 
 .enc.tres {
-	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/tit3.jpg);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/fondiux.jpg);
 	background-position-y: 60%;
 }
 
