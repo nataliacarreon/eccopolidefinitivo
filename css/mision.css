@@ -152,7 +152,7 @@ header .contenedor-menu .menu .line:hover::after {
     display: flex;
 }
 .imagebox {
-    background-image: url(../images/misionv2.JPG);
+    background-image: url(../images/nosotros-cascosazules.jpeg);
     background-size: cover;
     width: 40vw;
     height: 50vh;
