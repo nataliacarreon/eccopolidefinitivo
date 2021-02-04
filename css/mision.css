@@ -152,7 +152,7 @@ header .contenedor-menu .menu .line:hover::after {
     display: flex;
 }
 .imagebox {
-    background-image: url(../images/nosotros-cascosazules.jpeg);
+    background-image: url(../images/misionv2.JPG);
     background-size: cover;
     width: 40vw;
     height: 50vh;
@@ -243,8 +243,8 @@ body:before {
 }
 
 .enc.uno{
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/fondiux.jpg);
-    background-position-y: 10%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/nosotros-cascosazules.jpeg);
+    background-position-y: 50%;
     width: 100%;
 }
 

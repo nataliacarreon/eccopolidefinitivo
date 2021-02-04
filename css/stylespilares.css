@@ -187,17 +187,17 @@ transition:filter 0.5s;
 }
 
 .enc.uno{
-	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/fotouno.JPG);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/estado_derecho.jpg);
 	background-position-y: 55%;
 }
 
 .enc.dos{
-	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/fondiux.jpg);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/equidad_genero.jpg);
 	background-position-y: 55%;
 }
 
 .enc.tres {
-	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/fondiux.jpg);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.3) 100%), url(../images/desarrollo_durable.jpg);
 	background-position-y: 60%;
 }
 
@@ -290,7 +290,7 @@ h3 {
 	height: 50vh;
 	margin: 30px;
 	overflow: hidden;
-	background-image: url(../images/estado_derecho.jpg);
+	background-image: url(../images/reunion.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-x: center;
@@ -302,10 +302,10 @@ h3 {
 	height: 50vh;
 	margin: 30px;
 	overflow: hidden;
-	background-image: url(../images/equidad_genero.jpg);
+	background-image: url(../images/forum.jpg);
 	background-repeat: no-repeat;
 	background-position-x: right;
-	background-position-y: 50%;
+	background-position-y: 30%;
   	background-size: cover;
 }
 .tresimg {
@@ -313,10 +313,12 @@ h3 {
 	height: 50vh;
 	margin: 30px;
 	overflow: hidden;
-	background-image: url(../images/desarrollo_durable.jpg);
+	background-image: url(../images/IMG_2088.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-x: center;
+	background-position-y: 30%;
+
 }
 :root{
 
